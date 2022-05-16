@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7233A19228323FA200415BC2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A19128323FA200415BC2 /* SettingsView.swift */; };
+		7233A198283245F300415BC2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7233A196283245F300415BC2 /* LICENSE */; };
+		7233A199283245F300415BC2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7233A197283245F300415BC2 /* README.md */; };
+		72DE6C442832385C00E1693D /* AgileMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DE6C432832385C00E1693D /* AgileMateApp.swift */; };
+		72DE6C462832385C00E1693D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DE6C452832385C00E1693D /* ContentView.swift */; };
+		72DE6C482832385F00E1693D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DE6C472832385F00E1693D /* Assets.xcassets */; };
+		72DE6C4B2832385F00E1693D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DE6C4A2832385F00E1693D /* Preview Assets.xcassets */; };
+		72DE6C562832386000E1693D /* AgileMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DE6C552832386000E1693D /* AgileMateTests.swift */; };
+		72DE6C602832386000E1693D /* AgileMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DE6C5F2832386000E1693D /* AgileMateUITests.swift */; };
+		72DE6C622832386000E1693D /* AgileMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DE6C612832386000E1693D /* AgileMateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72DE6C522832386000E1693D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DE6C382832385C00E1693D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72DE6C3F2832385C00E1693D;
+			remoteInfo = AgileMate;
+		};
+		72DE6C5C2832386000E1693D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DE6C382832385C00E1693D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72DE6C3F2832385C00E1693D;
+			remoteInfo = AgileMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7233A19128323FA200415BC2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7233A1932832403100415BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7233A196283245F300415BC2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7233A197283245F300415BC2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		72DE6C402832385C00E1693D /* AgileMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgileMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DE6C432832385C00E1693D /* AgileMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgileMateApp.swift; sourceTree = "<group>"; };
+		72DE6C452832385C00E1693D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72DE6C472832385F00E1693D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72DE6C4A2832385F00E1693D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72DE6C4C2832385F00E1693D /* AgileMate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AgileMate.entitlements; sourceTree = "<group>"; };
+		72DE6C512832386000E1693D /* AgileMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgileMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DE6C552832386000E1693D /* AgileMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgileMateTests.swift; sourceTree = "<group>"; };
+		72DE6C5B2832386000E1693D /* AgileMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgileMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DE6C5F2832386000E1693D /* AgileMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgileMateUITests.swift; sourceTree = "<group>"; };
+		72DE6C612832386000E1693D /* AgileMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgileMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72DE6C3D2832385C00E1693D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DE6C4E2832386000E1693D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DE6C582832386000E1693D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72DE6C372832385C00E1693D = {
+			isa = PBXGroup;
+			children = (
+				7233A196283245F300415BC2 /* LICENSE */,
+				7233A197283245F300415BC2 /* README.md */,
+				72DE6C422832385C00E1693D /* AgileMate */,
+				72DE6C542832386000E1693D /* AgileMateTests */,
+				72DE6C5E2832386000E1693D /* AgileMateUITests */,
+				72DE6C412832385C00E1693D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72DE6C412832385C00E1693D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72DE6C402832385C00E1693D /* AgileMate.app */,
+				72DE6C512832386000E1693D /* AgileMateTests.xctest */,
+				72DE6C5B2832386000E1693D /* AgileMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72DE6C422832385C00E1693D /* AgileMate */ = {
+			isa = PBXGroup;
+			children = (
+				7233A1932832403100415BC2 /* Info.plist */,
+				72DE6C432832385C00E1693D /* AgileMateApp.swift */,
+				72DE6C452832385C00E1693D /* ContentView.swift */,
+				7233A19128323FA200415BC2 /* SettingsView.swift */,
+				72DE6C472832385F00E1693D /* Assets.xcassets */,
+				72DE6C4C2832385F00E1693D /* AgileMate.entitlements */,
+				72DE6C492832385F00E1693D /* Preview Content */,
+			);
+			path = AgileMate;
+			sourceTree = "<group>";
+		};
+		72DE6C492832385F00E1693D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72DE6C4A2832385F00E1693D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72DE6C542832386000E1693D /* AgileMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				72DE6C552832386000E1693D /* AgileMateTests.swift */,
+			);
+			path = AgileMateTests;
+			sourceTree = "<group>";
+		};
+		72DE6C5E2832386000E1693D /* AgileMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72DE6C5F2832386000E1693D /* AgileMateUITests.swift */,
+				72DE6C612832386000E1693D /* AgileMateUITestsLaunchTests.swift */,
+			);
+			path = AgileMateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72DE6C3F2832385C00E1693D /* AgileMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DE6C652832386000E1693D /* Build configuration list for PBXNativeTarget "AgileMate" */;
+			buildPhases = (
+				72DE6C3C2832385C00E1693D /* Sources */,
+				72DE6C3D2832385C00E1693D /* Frameworks */,
+				72DE6C3E2832385C00E1693D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgileMate;
+			productName = AgileMate;
+			productReference = 72DE6C402832385C00E1693D /* AgileMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72DE6C502832386000E1693D /* AgileMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DE6C682832386000E1693D /* Build configuration list for PBXNativeTarget "AgileMateTests" */;
+			buildPhases = (
+				72DE6C4D2832386000E1693D /* Sources */,
+				72DE6C4E2832386000E1693D /* Frameworks */,
+				72DE6C4F2832386000E1693D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72DE6C532832386000E1693D /* PBXTargetDependency */,
+			);
+			name = AgileMateTests;
+			productName = AgileMateTests;
+			productReference = 72DE6C512832386000E1693D /* AgileMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72DE6C5A2832386000E1693D /* AgileMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DE6C6B2832386000E1693D /* Build configuration list for PBXNativeTarget "AgileMateUITests" */;
+			buildPhases = (
+				72DE6C572832386000E1693D /* Sources */,
+				72DE6C582832386000E1693D /* Frameworks */,
+				72DE6C592832386000E1693D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72DE6C5D2832386000E1693D /* PBXTargetDependency */,
+			);
+			name = AgileMateUITests;
+			productName = AgileMateUITests;
+			productReference = 72DE6C5B2832386000E1693D /* AgileMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72DE6C382832385C00E1693D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					72DE6C3F2832385C00E1693D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					72DE6C502832386000E1693D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 72DE6C3F2832385C00E1693D;
+					};
+					72DE6C5A2832386000E1693D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 72DE6C3F2832385C00E1693D;
+					};
+				};
+			};
+			buildConfigurationList = 72DE6C3B2832385C00E1693D /* Build configuration list for PBXProject "AgileMate" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72DE6C372832385C00E1693D;
+			productRefGroup = 72DE6C412832385C00E1693D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72DE6C3F2832385C00E1693D /* AgileMate */,
+				72DE6C502832386000E1693D /* AgileMateTests */,
+				72DE6C5A2832386000E1693D /* AgileMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72DE6C3E2832385C00E1693D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7233A198283245F300415BC2 /* LICENSE in Resources */,
+				72DE6C4B2832385F00E1693D /* Preview Assets.xcassets in Resources */,
+				7233A199283245F300415BC2 /* README.md in Resources */,
+				72DE6C482832385F00E1693D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DE6C4F2832386000E1693D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DE6C592832386000E1693D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72DE6C3C2832385C00E1693D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DE6C462832385C00E1693D /* ContentView.swift in Sources */,
+				72DE6C442832385C00E1693D /* AgileMateApp.swift in Sources */,
+				7233A19228323FA200415BC2 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DE6C4D2832386000E1693D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DE6C562832386000E1693D /* AgileMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DE6C572832386000E1693D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DE6C622832386000E1693D /* AgileMateUITestsLaunchTests.swift in Sources */,
+				72DE6C602832386000E1693D /* AgileMateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72DE6C532832386000E1693D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72DE6C3F2832385C00E1693D /* AgileMate */;
+			targetProxy = 72DE6C522832386000E1693D /* PBXContainerItemProxy */;
+		};
+		72DE6C5D2832386000E1693D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72DE6C3F2832385C00E1693D /* AgileMate */;
+			targetProxy = 72DE6C5C2832386000E1693D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		72DE6C632832386000E1693D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72DE6C642832386000E1693D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		72DE6C662832386000E1693D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AgileMate/AgileMate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AgileMate/Preview Content\"";
+				DEVELOPMENT_TEAM = C2Y482MP9U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgileMate/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanocislaghi.AgileMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		72DE6C672832386000E1693D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AgileMate/AgileMate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AgileMate/Preview Content\"";
+				DEVELOPMENT_TEAM = C2Y482MP9U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgileMate/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanocislaghi.AgileMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		72DE6C692832386000E1693D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2Y482MP9U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanocislaghi.AgileMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgileMate.app/Contents/MacOS/AgileMate";
+			};
+			name = Debug;
+		};
+		72DE6C6A2832386000E1693D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2Y482MP9U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanocislaghi.AgileMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgileMate.app/Contents/MacOS/AgileMate";
+			};
+			name = Release;
+		};
+		72DE6C6C2832386000E1693D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2Y482MP9U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanocislaghi.AgileMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AgileMate;
+			};
+			name = Debug;
+		};
+		72DE6C6D2832386000E1693D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2Y482MP9U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanocislaghi.AgileMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AgileMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72DE6C3B2832385C00E1693D /* Build configuration list for PBXProject "AgileMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DE6C632832386000E1693D /* Debug */,
+				72DE6C642832386000E1693D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DE6C652832386000E1693D /* Build configuration list for PBXNativeTarget "AgileMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DE6C662832386000E1693D /* Debug */,
+				72DE6C672832386000E1693D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DE6C682832386000E1693D /* Build configuration list for PBXNativeTarget "AgileMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DE6C692832386000E1693D /* Debug */,
+				72DE6C6A2832386000E1693D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DE6C6B2832386000E1693D /* Build configuration list for PBXNativeTarget "AgileMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DE6C6C2832386000E1693D /* Debug */,
+				72DE6C6D2832386000E1693D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72DE6C382832385C00E1693D /* Project object */;
+}
